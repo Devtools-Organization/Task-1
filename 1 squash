@@ -1,8 +1,5 @@
 [15:44] Charan
-import com.atlassian.jira.component.ComponentAccessor;
-import com.atlassian.jira.issue.Issue;
-import com.atlassian.jira.issue.IssueManager;
-import com.atlassian.jira.issue.MutableIssue;
+
 
 IssueManager im = ComponentAccessor.getIssueManager()
 MutableIssue issue = im.getIssueObject("SAM-31")
